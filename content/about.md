@@ -1,27 +1,25 @@
 ---
-title: "关于 Hugo NexT 组织"
-description: "Hugo NexT 组织介绍说明。"
-
-date: 2022-06-09T20:12:52+08:00
-lastmod: 2022-06-09T20:12:52+08:00
-
-share: false
-followme: false
-nav: false
-copyright: false
-url: about.html
+title: 关于
+date: 2023-02-16 00:34:27
 ---
 
-`Hugo NexT` 组织是由众多喜爱 `NexT` 主题及风格的世界各地友人共同组建而成，为的就是让这个主题继续在 `Hugo` 引擎中也能得到发扬光大，在此也欢迎你的加入！
+### 个人
 
-# 我们的愿景
++ 目标是成为一名SRE
++ 能自由地呼吸
++ 能快活地看书
++ 能开心地笑着
 
-延续 `NexT` 经典的黑白调搭配，保持简单的易用性及强大的功能。
+### 博客搭建历程
 
-# 使用反馈
++ *2022.07.08*	注册域名[dreamin.space](https://dreamin.space)和购买腾讯云轻量服务器
++ *2022.07.14*    提交备案，并且开始在服务器上部署wordpress博客框架
++ *2022.07.25*    备案通过，开始安装各种主题，最终选择了Argon
++ *2022.08.27*    数据库被我玩崩溃了，且无备份，遂放弃wordpress，改用了typecho框架
++ *2022.09.10*    开始发布文章，并且购买了腾讯云COS作为图床
++ *2022.10.05*    看了木子的博客，最终迁移了所有文章，改用了hexo作为框架
++ *2022.10.08*    取消了备案，并且把网页部署在了githubpage上，图床也改为github
++ *2022.12.20*    申请了新的博客主域名[drz.ink](https://drz.ink)，并解析在CloudFare上
++ *2022.12.28*     加入了[Waline](https://github.com/walinejs/waline) 评论系统，部署于Vercel
++ *2023.01.08*     开始添加友链
 
-- 加入 [GitHub Discussions](https://github.com/hugo-next/hugo-theme-next/discussions) 或 [Gitter](https://gitter.im/hugo-next/community) 在线讨论 :beers:
-- [GitHub Issues](https://github.com/hugo-next/hugo-theme-next/issues/new?labels=Bug&template=bug-report.md) 提交错误报告 :bug:
-- [GitHub Feature](https://github.com/hugo-next/hugo-theme-next/issues/new?labels=Feature+Request&template=feature-request.md) 表新功能的想法 :sparkles:
-
-> 同时国内用户也可加入 QQ 群交流： 604710815
