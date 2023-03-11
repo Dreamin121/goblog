@@ -294,11 +294,14 @@ footer:
         link: https://vercel.com
       - name: CloudFare
         image: 
-          url: /imgs/vendors/upyun.png
+          url: /imgs/vendors/cloudflare.png
           width: 43
-        link: https://upyun.com
-      - name: Webify
-        link: https://webify.cloudbase.net
+        link: https://www.cloudflare.com/
+      - name: Leancloud
+        image: 
+          url: /imgs/vendors/Leancloud.png
+          width: 43
+        link: https://leancloud.app/
 
 
 # ---------------------------------------------------------------
@@ -444,13 +447,13 @@ readingProgress:
   position: top
   # 是否反向显示进度
   # If true, the read progress will be reversed.
-  reversed: false
+  reversed: true
   # 用16进制设置进度条颜色
   # Change the color of progress bar, using Hex Code.
   color: "#686868"
   # 进度条的高度
   # Hight of the read progress bar.
-  height: 3px
+  height: 2px
 
 # 书签功能
 # Bookmark Support
@@ -500,7 +503,7 @@ font:
   enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
-  host:
+  host: fonts.sourcegcdn.com
 
   # Font options:
   # `external: true` will load this font family from `host` above.
@@ -510,7 +513,8 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
+    # family: Lato
+    family: Noto Serif SC
     size:
 
   # Font settings for site title (.site-title).
