@@ -183,7 +183,7 @@ socialIcons:
   enable: true
   # 只显示图标
   # Only show icon
-  iconsOnly: false
+  iconsOnly: ture
   # 开启动画效果
   # Enable animation
   transition: true
