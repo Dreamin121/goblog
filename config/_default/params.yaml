@@ -18,8 +18,8 @@ timeFormat: "2006-01-02T15:04:05-07:00"
 # Schemes
 # scheme: Muse
 # scheme: Mist
-scheme: Pisces
-# scheme: Gemini
+# scheme: Pisces
+scheme: Gemini
 
 # 开启暗模式
 # Dark Mode
@@ -188,6 +188,8 @@ socialIcons:
   # Enable animation
   transition: true
 
+
+
 # 友情链接设置
 # Friend links setting
 linksSets:
@@ -214,7 +216,7 @@ links:
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
 toc:
-  enable: ture
+  enable: true
   # 自动设置列表的数字
   # Automatically add list number to toc.
   number: true
@@ -259,11 +261,11 @@ footer:
 
   # 版权信息，如不设置将会使用 `author` 变量
   # If not defined, `author` from site information will be used.
-  copyright: Dreamin
+  copyright: Power by Hugo&Next Theme
 
   # 显示 Hugo 和 NexT 支持
   # Powered by Hugo & NexT
-  powered: true
+  powered: false
 
   # 国内 ICP 备案和公安网备信息
   # Beian ICP and gongan information for Chinese users. 
@@ -283,7 +285,7 @@ footer:
     enable: true
     # 支持说明
     # Some support information description.
-    title: 提供CDN/云资源支持
+    title: Provide CDN/Cloud Services
     # 供应商列表，请将带有图标的供应商放在前面
     # Vendors list, remember that who with logo image need put in top.
     list:
@@ -300,7 +302,7 @@ footer:
       - name: Leancloud
         image: 
           url: /imgs/vendors/Leancloud.png
-          width: 43
+          width: 50
         link: https://leancloud.app/
 
 
@@ -428,7 +430,7 @@ backTop:
   enable: true
   # 在侧边栏显示返回顶部按钮
   # Back to top in sidebar.
-  sidebar: true
+  sidebar: false
   # 在返回按钮上显示进度
   # Scroll percent label in b2t button.
   scrollpercent: true
@@ -674,7 +676,7 @@ waline:
   requiredMeta: ['nick']
   reaction: true
   # reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
-  reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
+  reactionText: [ ]
   reactionTitle: ""
   # 请注意换成个人的 Waline Server 服务器地址
   # Please replace this with your waline server URL
@@ -925,7 +927,7 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: false
+  enable: true
   # All available colors:
   # black | blue | green | orange | pink | purple | red | silver | white | yellow
   color: blue

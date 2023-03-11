@@ -1,5 +1,5 @@
 ---
-title: 折腾OpenWrt的半个月
+title: I spent half a month on OpenWrt
 date: 2022-11-02 11:41:10
 tags:
 - Linux     

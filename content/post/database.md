@@ -1,5 +1,5 @@
 ---
-title: 数据库原理应用复习
+title: Database principle application review
 date: 2022-10-25 11:11:10
 tags:
 - Sql      

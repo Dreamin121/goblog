@@ -1,5 +1,5 @@
 ---
-title: 基于Github的Typora图床
+title: Typora diagram bed based on Github
 date: 2022-10-07 23:11:10
 tags:
 - Typora    

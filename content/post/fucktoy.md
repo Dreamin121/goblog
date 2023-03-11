@@ -1,5 +1,5 @@
 ---
-title: Linux toy合集
+title: Linux toy Collection
 date: 2022-09-15 11:41:10
 tags:
 - Linux      

@@ -1,5 +1,5 @@
 ---
-title: Mysql基础
+title: Mysql Basics
 date: 2022-09-09 11:11:10
 tags:
 - Mysql       

@@ -1,5 +1,5 @@
 ---
-title: 程序员的软件抽屉(Windows)
+title: Programmer's Software Drawer (Windows)
 date: 2022-09-26 11:11:10
 tags:
 - windows 

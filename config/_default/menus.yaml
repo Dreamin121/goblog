@@ -17,22 +17,22 @@
 # -------------------------------------
 main:
   - identifier: archives
-    name: 首页
+    name: Archives
     pageref: /archives
     pre: archive
     weight: 1
   - identifier: about
-    name: 关于
+    name: About
     pageref: /about.html
     pre: user
-    weight: 3
+    weight: 4
   - identifier: flinks
-    name: 朋友
+    name: Friends
     pageref: /flinks.html
-    pre: thumbs-up
+    pre: fa fa-people-pulling hvr-icon
     weight: 2
   - identifier: categories
-    name: 镜像
+    name: Chinese
     url: https://blog.drz.ink
-    pre: fa fa-apple
-    weight: 4
+    pre: fa fa-blog hvr-icon
+    weight: 3

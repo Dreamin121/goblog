@@ -21,14 +21,14 @@ title: Drzone
 theme: next
 # 站点默认的语言和代码
 # Default laguage & code for website
-defaultContentLanguage: zh-cn
-languageCode: zh-CN
+defaultContentLanguage: en
+languageCode: en
 # 是否包含中文，日语，韩文
 # Whether contains Chinese, Japanese and Korean
 hasCJKLanguage: true
 # 每页显示文章数量
 # Display items per page
-paginate: 10
+paginate: 99
 # 开启支持表情符号
 # Enable Emoji support
 enableEmoji: true

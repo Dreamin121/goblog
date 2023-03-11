@@ -1,5 +1,5 @@
 ---
-title: 计算机网络
+title: Computer network
 date: 2022-10-10 11:11:10
 tags:
 - code 

@@ -1,5 +1,5 @@
 ---
-title: 在线code安装教程
+title: Online code installation tutorial
 date: 2022-09-12 11:11:10
 tags:
 - toy 

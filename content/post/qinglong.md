@@ -1,5 +1,5 @@
 ---
-title: 基于青龙面板薅JD羊毛
+title: JD wool based on the green dragon panel
 date: 2022-10-05 11:41:10
 tags:
 - Docker

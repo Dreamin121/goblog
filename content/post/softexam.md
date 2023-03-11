@@ -1,10 +1,10 @@
 ---
-title: 软工导论复习
+title: Review of introduction to soft engineering
 date: 2023-03-05 11:11:10
 tags:
 - soft
 categories: 
-- 笔记
+- note
 ---
 
 # 第一章

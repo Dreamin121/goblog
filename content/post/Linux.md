@@ -1,5 +1,5 @@
 ---
-title: Linux的学习笔记
+title: Study Notes for Linux
 date: 2022-10-02 11:41:10
 tags:     
 - Linux
