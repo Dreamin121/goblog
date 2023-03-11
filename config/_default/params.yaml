@@ -120,7 +120,7 @@ sidebar:
   #  - always  expand for all pages automatically.
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
-  display: post
+  display: always
 
   # 侧边栏内部填充像素大小
   # Sidebar padding in pixels.
@@ -163,7 +163,7 @@ siteState:
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
   GitHub: Github || https://github.com/Dreamin121 || fab fa-github
-  Telegram: Telegram || https://t.me/dreaminfuck || fa-brands fa-telegram
+  Telegram: Telegram || https://t.me/dreaminfuck || fab fa-telegram
   E-Mail: E-Mail || mailto:12185744g@gmail.com || fa fa-envelope
   Instagram: Instagram || https://instagram.com/musang152 || fab fa-instagram  
 
@@ -183,7 +183,7 @@ socialIcons:
   enable: true
   # 只显示图标
   # Only show icon
-  iconsOnly: ture
+  iconsOnly: true
   # 开启动画效果
   # Enable animation
   transition: true
@@ -259,7 +259,7 @@ footer:
 
   # 版权信息，如不设置将会使用 `author` 变量
   # If not defined, `author` from site information will be used.
-  copyright:
+  copyright: Dreamin
 
   # 显示 Hugo 和 NexT 支持
   # Powered by Hugo & NexT
@@ -275,7 +275,7 @@ footer:
     # 公安网备的省份简称
     provinceAbbr: 沪
     # 公安网备案号
-    gonganNum: 31011402009770
+    gonganNum: 
 
   # 站点支持供应商列表
   # Vendors list who support website. 
@@ -323,13 +323,13 @@ readMoreBtn: true
 # 开启文章头部元素显示
 # Post meta display settings
 postMeta:
-  itemText: true
+  itemText: false
   created: true
   updated:
     enable: true
     anotherDay: true
-  categories: true
-  wordCount: true
+  categories: false
+  wordCount: false
   readTime: true
 
 # 文章底部的设置
@@ -349,7 +349,7 @@ rewardSets:
   # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
   # If true, a donate button will be displayed 
   # in every article by default.
-  enable: true
+  enable: false
   # 是否开启捐赠方式的动画效果
   # If true, the donate type title will with animation.
   animation: true
@@ -370,17 +370,17 @@ rewardSets:
 # 用例： `key: 名称 || 链接（图像地址）|| icon名称`
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: name || permalink || icon` (Font Awesome)
-followMe:
-  channel0: Twitter || https://twitter.com/username || fab fa-twitter
-  channel1: Telegram || https://t.me/channel_name || fab fa-telegram
-  channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
-  channel3: RSS || /atom.xml || fa fa-rss
+# followMe:
+#   channel0: Twitter || https://twitter.com/username || fab fa-twitter
+#   channel1: Telegram || https://t.me/channel_name || fab fa-telegram
+#   channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
+#   channel3: RSS || /atom.xml || fa fa-rss
 
 # 文章的在线编辑
 # Post edit
 # Easily browse and edit blog source code online.
 postEdit:
-  enable: true
+  enable: false
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
 
 
@@ -428,7 +428,7 @@ backTop:
   enable: true
   # 在侧边栏显示返回顶部按钮
   # Back to top in sidebar.
-  sidebar: ture
+  sidebar: true
   # 在返回按钮上显示进度
   # Scroll percent label in b2t button.
   scrollpercent: true
@@ -453,14 +453,14 @@ readingProgress:
   color: "#686868"
   # 进度条的高度
   # Hight of the read progress bar.
-  height: 2px
+  height: 3px
 
 # 书签功能
 # Bookmark Support
 bookmark:
   # 开启书签功能
   # If true, will display bookmark in all page.
-  enable: true
+  enable: false
   # 自定义书签显示颜色
   # Customize the color of the bookmark.
   color: "#222"
@@ -469,7 +469,7 @@ bookmark:
   # manual: 只有当点击书签按钮时才会保存阅读进度
   # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
   # If manual, only save it by clicking the bookmark-icon.
-  save: manual
+  save: auto
 
 # 右上角在 Github 上面关注我的横幅
 # `Follow me on GitHub` banner in the top-right corner.
@@ -666,13 +666,14 @@ comments:
 waline:
   pageView: true
   comment: true
-  placeholder: "请文明发言哟 ヾ(≧▽≦*)o"
-  sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
-  emoji: false
+  placeholder: "请文明发言哟"
+  sofa: ""
+  emoji: true
   imgUploader: false
   wordLimit: 200
-  requiredMeta: ['nick', 'mail']
+  requiredMeta: ['nick']
   reaction: true
+  # reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
   reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
   reactionTitle: ""
   # 请注意换成个人的 Waline Server 服务器地址
@@ -761,7 +762,7 @@ giscus:
 rating:
   enable: false
   id:     # <app_id>
-  color:  "#fc6423"
+  color:  "#569cd6"
 
 # AddThis文章分享功能
 # 更多信息及配置请参考：https://www.addthis.com
@@ -850,7 +851,7 @@ chat:
 # Gitter Support
 # For more information: https://gitter.im
 gitter:
-  enable: true
+  enable: false
   room: hugo-next/community
 
 
@@ -876,7 +877,7 @@ note:
 # Tabs tag
 tabs:
   # Make the nav bar of tabs with long content stick to the top.
-  sticky: false
+  sticky: true
   transition:
     tabs: false
     labels: true
@@ -937,7 +938,7 @@ pace:
 # Canvas ribbon
 # For more information: https://github.com/hustcc/ribbon.js
 canvasRibbon:
-  enable: false
+  enable: true
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon

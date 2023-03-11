@@ -1,6 +1,6 @@
 ---
 title: 软工导论复习
-date: 2023-03-.5 11:11:10
+date: 2023-03-05 11:11:10
 tags:
 - soft
 categories: 
