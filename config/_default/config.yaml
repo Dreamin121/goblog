@@ -12,10 +12,10 @@
 
 # 站点域名，比如： https://hugo-next.eu.org
 # Website domain, eg: https://hugo-next.eu.org
-baseURL: /
+baseURL: https://go.drz.ink
 # 站点标题
 # Website title
-title: Hugo NexT
+title: Drzone
 # 主题名称
 # Theme name
 theme: hugo-theme-next

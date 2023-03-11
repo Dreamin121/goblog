@@ -16,10 +16,10 @@ timeFormat: "2006-01-02T15:04:05-07:00"
 
 # 页面模式
 # Schemes
-#scheme: Muse
-#scheme: Mist
-#scheme: Pisces
-scheme: Gemini
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
+# scheme: Gemini
 
 # 开启暗模式
 # Dark Mode
@@ -28,10 +28,10 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
-description: 保持简单的易用性和强大的功能。
-keywords: Hugo,NexT,主题,简单,强大
+author: Dreamin
+# subtitle: 为 Hugo 打造的主题
+description: Stay Hungry
+# keywords: Hugo,NexT,主题,简单,强大
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -62,7 +62,7 @@ creativeCommons:
   license: by-nc-sa
   # 可选配置： big | small
   # Available values: big | small
-  size: big
+  size: small
   # 侧边栏显示
   # Show in sidebar
   sidebar: true
@@ -134,7 +134,7 @@ sidebar:
 avatar:
   # 设置显示头像的相对路径
   # Replace the default image and set the url here.
-  url: /imgs/hugo_next_avatar.png
+  url: https://drz.ink/favicon.ico
   # 开启头像的圆形显示效果
   # If true, the avatar will be displayed in circle.
   rounded: true
@@ -148,7 +148,7 @@ siteState:
   # 站点访问信息
   # Site information
   statistic: 
-    enable: true
+    enable: false
     # 组件类型，可选值为： 51la, busuanzi
     # 使用51la时需要注册账号：https://invite.51.la/1NUfGTS1?target=V6
     # Plguin value is: 51la, busuzazi
@@ -162,10 +162,12 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
-  #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
-  #Google: https://plus.google.com/yourname || fab fa-google
+  GitHub: Github || https://github.com/Dreamin121 || fab fa-github
+  Telegram: Telegram || https://t.me/dreaminfuck || fa-brands fa-telegram
+  E-Mail: E-Mail || mailto:12185744g@gmail.com || fa fa-envelope
+  Instagram: Instagram || https://instagram.com/musang152 || fab fa-instagram  
+
+  # Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
@@ -198,21 +200,21 @@ linksSets:
   title: 友情链接
   # 可选值： block | inline
   # Available values: block | inline
-  layout: inline
+  layout: block
 
 # 友情链接地址
 # 用法： `Key: 显示名称 || 链接地址`
 # Links of your friends
 # Usage: `Key: name || permalink`
 links: 
-  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+  # link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
+  # link1: 凡梦星尘空间站 || https://lisenhui.cn
 
 # 文章目录显示
 # Table of Contents in the Sidebar
 # Front-matter variable (nonsupport wrap expand_all).
 toc:
-  enable: false
+  enable: ture
   # 自动设置列表的数字
   # Automatically add list number to toc.
   number: true
@@ -240,7 +242,7 @@ footer:
   # 站点开始年份，默认为当下时间的年份
   # Specify the year when the site was setup. 
   # If not defined, current year will be used.
-  since: 2010
+  since: 2022
 
   # 年份和版权信息之间的图标
   # Icon between year and copyright info.
@@ -253,7 +255,7 @@ footer:
     animated: true
     # 使用16进制设置图标的颜色
     # Change the color of icon, using Hex Code.
-    color: "#ff0000"
+    color: "#569cd6"
 
   # 版权信息，如不设置将会使用 `author` 变量
   # If not defined, `author` from site information will be used.
@@ -267,9 +269,9 @@ footer:
   # Beian ICP and gongan information for Chinese users. 
   # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
+    enable: false
     # ICP 备案的具体信息
-    icp: 粤ICP备 18047355-1 号
+    icp: 
     # 公安网备的省份简称
     provinceAbbr: 沪
     # 公安网备案号
@@ -290,7 +292,7 @@ footer:
           url: /imgs/vendors/vercel.svg
           width: 50
         link: https://vercel.com
-      - name: 又拍云
+      - name: CloudFare
         image: 
           url: /imgs/vendors/upyun.png
           width: 43
@@ -366,8 +368,8 @@ rewardSets:
 # Subscribe through Telegram Channel, Twitter, etc.
 # Usage: `Key: name || permalink || icon` (Font Awesome)
 followMe:
-  #channel0: Twitter || https://twitter.com/username || fab fa-twitter
-  #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
+  channel0: Twitter || https://twitter.com/username || fab fa-twitter
+  channel1: Telegram || https://t.me/channel_name || fab fa-telegram
   channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
   channel3: RSS || /atom.xml || fa fa-rss
 
@@ -423,7 +425,7 @@ backTop:
   enable: true
   # 在侧边栏显示返回顶部按钮
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: ture
   # 在返回按钮上显示进度
   # Scroll percent label in b2t button.
   scrollpercent: true
@@ -445,7 +447,7 @@ readingProgress:
   reversed: false
   # 用16进制设置进度条颜色
   # Change the color of progress bar, using Hex Code.
-  color: "#37c6c0"
+  color: "#686868"
   # 进度条的高度
   # Hight of the read progress bar.
   height: 3px
@@ -471,7 +473,7 @@ bookmark:
 githubBanner:
   # 是否开启显示
   # If true, will display banner.
-  enable: true
+  enable: false
   # 你的 Github 仓库地址
   # Your repository url on Github.
   permalink: https://github.com/hugo-next
@@ -668,10 +670,10 @@ waline:
   requiredMeta: ['nick', 'mail']
   reaction: true
   reactionText: [ '点赞', '踩一下', '得意', '不屑', '尴尬', '睡觉']
-  reactionTitle: "你认为这篇文章怎么样？"
+  reactionTitle: ""
   # 请注意换成个人的 Waline Server 服务器地址
   # Please replace this with your waline server URL
-  serverURL: https://walinejs.comment.lithub.cc
+  serverURL: https://com.drz.ink/
 
 # Artalk 评论插件
 # 更多配置信息请参考：https://artalk.js.org
@@ -907,7 +909,7 @@ motion:
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
     postBlock: fadeIn
-    postHeader: fadeInDown
+    postHeader: fadeInLeft
     postBody: fadeInDown
     collHeader: fadeInLeft
     # 侧边样效果 只有在 Pisces | Gemini 模式下才支持
