@@ -1,7 +1,6 @@
 ---
 title: 朋友
 date: 2023-02-16 00:34:27
-
 ---
 
 ------
@@ -127,10 +126,10 @@ date: 2023-02-16 00:34:27
                </div>
             </div>
             <div class="card">
-               <img class="ava" src="https://article.biliimg.com/bfs/article/ebd35811f78671b46d835a94fe0dfb48e194cd90.jpg" />
+               <img class="ava" src="https://cdn.jsdelivr.net/gh/lveMonsi/Img@main/img/202303141405011.jpg" />
                <div class="card-header">
                   <div>
-                     <a href="lveMonsi.github.io">lveMonsi</a>
+                     <a href="https://lveMonsi.github.io">lveMonsi</a>
                   </div>
                   <div class="info">二刺螈、无缘更新</div>
                </div>
@@ -160,4 +159,3 @@ date: 2023-02-16 00:34:27
 > 链接：https://drz.ink/
 > 头像：https://drz.ink/favicon.ico
 > 简介：运维SRE、垃圾佬、幻想主义者
-
