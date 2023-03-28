@@ -1,10 +1,10 @@
 ---
 title: 朋友
 date: 2023-02-16 00:34:27
+
 ---
 
 ------
-
 
 <div class="post-body">
    <div id="links">
@@ -127,12 +127,21 @@ date: 2023-02-16 00:34:27
                </div>
             </div>
             <div class="card">
-               <img class="ava" src="https://link.jscdn.cn/1drv/aHR0cHM6Ly8xZHJ2Lm1zL3UvcyFBalJnTFllMWd2YjFnazNOTUNCMWtybjBPczBPP2U9bnZrNXZn.jpg" />
+               <img class="ava" src="https://article.biliimg.com/bfs/article/ebd35811f78671b46d835a94fe0dfb48e194cd90.jpg" />
                <div class="card-header">
                   <div>
                      <a href="lveMonsi.github.io">lveMonsi</a>
                   </div>
                   <div class="info">二刺螈、无缘更新</div>
+               </div>
+            </div>
+             <div class="card">
+               <img class="ava" src="https://wiki-power.com/img/logo-zip.png" />
+               <div class="card-header">
+                  <div>
+                     <a href="https://wiki-power.com/">Power's Wiki</a>
+                  </div>
+                  <div class="info">骁龙大佬</div>
                </div>
             </div>
          </div>
@@ -142,14 +151,13 @@ date: 2023-02-16 00:34:27
 
 
 
+
 ------
 
 交换友链可添加本站友链后下方留言或[邮件](mailto:12185744g@gmail.com)，友链格式：
 
 > 名称：Dreamin
-> 
 > 链接：https://drz.ink/
-> 
 > 头像：https://drz.ink/favicon.ico
-> 
 > 简介：运维SRE、垃圾佬、幻想主义者
+
